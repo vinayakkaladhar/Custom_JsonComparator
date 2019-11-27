@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="API Test Suite" verbose="2" >
+
+  <test name="API Test" parallel="tests" thread-count="5">
+    <classes>
+	    <class name="com.gojek.api.GoJekAPITest"/>
+    </classes>
+  </test>
+  
+</suite>

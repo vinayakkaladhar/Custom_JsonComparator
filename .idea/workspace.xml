@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2dfa512b-12ba-467e-a253-2291f16a1bc4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U8tLGvgh3n0QffYBJANrzZApSj" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/testng" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/testdata" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gojek.api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/testng" />
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.GoJekAPITest.testAPIs">
+    <configuration name="GoJekAPITest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gojek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gojek.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gojek.api" />
+      <option name="MAIN_CLASS_NAME" value="com.gojek.api.GoJekAPITest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoJekAPITest.testAPIs (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gojek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gojek.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gojek.api" />
+      <option name="MAIN_CLASS_NAME" value="com.gojek.api.GoJekAPITest" />
+      <option name="METHOD_NAME" value="testAPIs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoJekAPITest.testAPIs (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gojek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gojek.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gojek.api" />
+      <option name="MAIN_CLASS_NAME" value="com.gojek.api.GoJekAPITest" />
+      <option name="METHOD_NAME" value="testAPIs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoJekAPITest.testAPIs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gojek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gojek.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gojek.api" />
+      <option name="MAIN_CLASS_NAME" value="com.gojek.api.GoJekAPITest" />
+      <option name="METHOD_NAME" value="testAPIs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/cb-dinesh/Desktop/gojek/resources/testng/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="gojek" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/testng/test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GoJekAPITest.testAPIs" />
+        <item itemvalue="TestNG.GoJekAPITest.testAPIs (2)" />
+        <item itemvalue="TestNG./Users/cb-dinesh/Desktop/gojek/resources/testng/test.xml" />
+        <item itemvalue="TestNG.GoJekAPITest" />
+        <item itemvalue="TestNG.GoJekAPITest.testAPIs (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dfa512b-12ba-467e-a253-2291f16a1bc4" name="Default Changelist" comment="" />
+      <created>1574749992339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574749992339</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gojek/api/APIComparator.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gojek/api/APIComparator.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
