@@ -7,6 +7,7 @@ This project is to Compare two json responses and validate if the responses are 
 Increment JAVA heap size to handle million requests
 Set -Xmx=64M
 To handle requests in parallel mark data-provider-thread-count="20" in test.xml
+Input requests in basefile.text and newfile.txt (navigate to resources -> testdata -> files)
 
 ## Installation
 Install JAVA
