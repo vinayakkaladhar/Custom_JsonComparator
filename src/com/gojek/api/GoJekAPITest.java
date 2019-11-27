@@ -16,11 +16,12 @@ public class GoJekAPITest {
     @Test(dataProvider = "requestURL", dataProviderClass = APIDataProvider.class)
     public void testAPIs(String baseReq, String newReq, ITestContext context) {
         try {
-            String baseResponse = given().when().get(baseReq).thenReturn().body().asString();
-            String newResponse = given().when().get(newReq).thenReturn().body().asString();
             
             context.setAttribute("baseObj", baseReq);
             context.setAttribute("newObj", newReq);
+            
+            String baseResponse = given().when().get(baseReq).thenReturn().body().asString();
+            String newResponse = given().when().get(newReq).thenReturn().body().asString();
 
             JSONObject baseObj = null;
             JSONObject newObj = null;
@@ -34,7 +35,8 @@ public class GoJekAPITest {
             }
             Assert.assertTrue(APIComparator.jsonCompareObject(baseObj, newObj));
         }catch (Exception e) {
-            e.printStackTrace();
+            Assert.fail();
+            
         }
     }
 }

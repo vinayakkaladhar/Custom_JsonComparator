@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
   
-<suite name="API Test Suite" verbose="2" >
+<suite name="API Test Suite" data-provider-thread-count="20" verbose="2" >
 
-  <test name="API Test" parallel="tests" thread-count="5">
+  <test name="API Test" >
     <classes>
 	    <class name="com.gojek.api.GoJekAPITest"/>
     </classes>
