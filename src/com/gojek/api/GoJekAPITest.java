@@ -16,54 +16,9 @@ public class GoJekAPITest {
     @Test(dataProvider = "requestURL", dataProviderClass = APIDataProvider.class)
     public void testAPIs(String baseReq, String newReq, ITestContext context) {
         try {
-            /*String baseResponse = given().when().get(baseReq).thenReturn().body().asString();
-            String newResponse = given().when().get(newReq).thenReturn().body().asString();*/
-
-            String baseResponse = "{\n" +
-                    "    \"color\":[\n" +
-                    "        {\n" +
-                    "          \"name\": \"e2\",\n" +
-                    "          \"id\": 2\n" +
-                    "        },\n" +
-                    "        {\n" +
-                    "          \"name\": \"e3\",\n" +
-                    "          \"id\": 2\n" +
-                    "        },\n" +
-                    "        {\n" +
-                    "          \"name\": \"e1\",\n" +
-                    "          \"id\": 1\n" +
-                    "        },\n" +
-                    "        {\n" +
-                    "          \"name\": \"e4\",\n" +
-                    "          \"id\": 4\n" +
-                    "        }\n" +
-                    "    ],\n" +
-                    "    \"fruit\": \"Apple\",\n" +
-                    "    \"size\": \"Large\"\n" +
-                    "}";
-            String newResponse = "{\n" +
-                    "    \"color\":[\n" +
-                    "        {\n" +
-                    "          \"name\": \"e3\",\n" +
-                    "          \"id\": 2\n" +
-                    "        },\n" +
-                    "        {\n" +
-                    "          \"name\": \"e1\",\n" +
-                    "          \"id\": 2\n" +
-                    "        },\n" +
-                    "        {\n" +
-                    "          \"name\": \"e4\",\n" +
-                    "          \"id\": 4\n" +
-                    "        },\n" +
-                    "        {\n" +
-                    "          \"name\": \"e2\",\n" +
-                    "          \"id\": 2\n" +
-                    "        }\n" +
-                    "    ],\n" +
-                    "    \"fruit\": \"Apple\",\n" +
-                    "    \"size\": \"Large\"\n" +
-                    "}";
-
+            String baseResponse = given().when().get(baseReq).thenReturn().body().asString();
+            String newResponse = given().when().get(newReq).thenReturn().body().asString();
+            
             context.setAttribute("baseObj", baseReq);
             context.setAttribute("newObj", newReq);
 
