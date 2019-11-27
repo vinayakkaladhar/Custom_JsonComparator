@@ -21,18 +21,19 @@ public class APIComparator {
                 JSONArray arr2 = (JSONArray) jsonDumpObj.get(key);
                 if(arr1.length()!=arr2.length())
                     return false;
-                int l=arr2.length();
                 for (int i = 0; i < arr1.length(); i++)
                 {
                     JSONObject baseObj = (JSONObject) arr1.get(i);
-                    int j=0;
-                    JSONObject dumpObj = (JSONObject) arr2.get(j);
-                    while(!jsonCompareObject(baseObj, dumpObj) && j<arr2.length()-1) {
-                        dumpObj = (JSONObject) arr2.get(++j);
-                        l--;
+                    for(int j=0; j<arr2.length(); j++) {
+                        JSONObject dumpObj = (JSONObject) arr2.get(j);
+                        if(jsonCompareObject(baseObj, dumpObj)) {
+                            arr2.remove(j);
+                            break;
+                        }
                     }
                 }
-                System.out.println(l + " " + arr2.length());
+                if(arr2.length() !=0)
+                    return false;
             }
             else if (jsonBaseObj.get(key) instanceof JSONObject) {
                 JSONObject baseObj = (JSONObject) jsonBaseObj.get(key);
